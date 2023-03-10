@@ -1,0 +1,50 @@
+ @import "~bootstrap/scss/bootstrap";  
+
+.thirdrow1{
+    // display: flex;
+    background-color: #1d1751;
+    padding-left: 10vw;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    width: 100vw;
+    overflow-x:hidden;
+    margin-right: 0;
+ }
+ .third_d1{
+    // font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    // font-style: normal;
+    letter-spacing: 1.1px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+ }
+ .third_d2{
+        font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9db1bc;
+    margin-top: 30px;
+    margin-bottom: 50px;
+ }
+ .features1{
+    
+    min-width: 64.85px;
+    height: 54.87px;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin-top: 20px;
+
+ }
+
+.cards{
+    display: flex;
+    color:white;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.card_para{
+    font-size: 18px;
+}

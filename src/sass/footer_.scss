@@ -1,0 +1,39 @@
+ @import "~bootstrap/scss/bootstrap";  
+
+ .footer{
+    background-color: #f5f9ff;
+    height: auto;
+    padding: 40px 40px 0px 40px;
+    
+ }
+ .foot_options{
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 100%;
+    padding:40px 40px 30px 40px  ;
+    position: relative;
+ }
+ .foot_centre{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    flex-wrap: wrap;
+ }
+ .getstarted{
+    background: #1d1751;
+    border-radius: 43px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: #fff;
+    padding: 16px 40px 12px;
+    margin-left: 20px;
+    cursor: pointer;
+ }
