@@ -1,6 +1,6 @@
 import React from "react";
 import '../sass/third.scss';
-import { Row, Col,Card } from 'react-bootstrap';
+import { Row, Col} from 'react-bootstrap';
 import features1 from '../assets/features1.svg'
 import features2 from '../assets/features2.svg'
 import features3 from '../assets/features3.svg'
@@ -18,7 +18,7 @@ function Third() {
           <Row>
             <Col xl={6}>
               <div className="cards">
-                <img className='features1' src={features1}  />
+                <img className='features1' alt="features1" src={features1}  />
                 <div>
                   <h5>Understand Your Choices</h5>
                   <div className='card_para'>We allow YOU to select what is best for you and your company. Look for software that meets your team's size, budget, system, feature needs, and other criteria.</div>
@@ -27,7 +27,7 @@ function Third() {
             </Col>
             <Col xl={6}>
              <div className="cards">
-                <img className='features1' src={features2}  />
+                <img className='features1' alt="features2" src={features2}  />
                 <div>
                   <h5>Enjoy Amazing Offers</h5>
                   <div className='card_para'>Save your hard-earned money with the discounts offered by TechBag. Because with us, you get to buy software at a lower price bracket than quoted by the vendors.</div>
@@ -38,7 +38,7 @@ function Third() {
            <Row>
             <Col xs={12} xl={6}>
             <div className="cards">
-                <img className='features1' src={features3}  />
+                <img className='features1' alt="features3" src={features3}  />
                 <div>
                   <h5>We empower</h5>
                   <div className='card_para'>We understand how important business decisions may be. As a result, we provide you with unbiased information on each software so that you may make better business decisions.</div>
@@ -47,7 +47,7 @@ function Third() {
             </Col>
             <Col xs={12} xl={6}>
             <div className="cards">
-                <img className='features1' src={features4}  />
+                <img alt="features4" className='features1' src={features4}  />
                 <div>
                   <h5>Meet up with Suppliers</h5>
                   <div className='card_para'>Contact the sellers whose products you're interested in directly. You may quickly inquire about their goods, request a demo, or inquire about anything else.</div>

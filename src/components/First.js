@@ -27,32 +27,32 @@ function First() {
                         aria-describedby="basic-addon2"
                         />
                          <Button style={{borderTop:'2px solid #000',height:'40px',borderRight:'2px solid #000',borderBottom:'2px solid #000',borderTopRightRadius:'10px',borderBottomRightRadius:'10px',borderLeft:'none',backgroundColor:'white'}}  id="button-addon2">
-                            <img style={{paddingRight:'30px'}} src={search}/>
+                            <img style={{paddingRight:'30px'}} alt='search' src={search}/>
                         </Button>
                     </InputGroup>
                     
                 </div>
             </Col>
             <Col className="d-none d-lg-block">
-                <img src={hero} width='100%'/>
+                <img src={hero} alt='hero' width='100%'/>
             </Col>
         </Row>
         <Row className="row2">
             <div className="divh1">Popular Software</div>
             <Col xs={12} md={5} className="d-grid gap-0" >
                 <Button className="btn" style={{hover:'border',textAlign:'left',marginBottom:'10px',fontWeight:'600',fontSize:'18px',borderRadius:'5px',height:'50px',backgroundColor:'#ed3523',border:'2px solid #ed3523'}} >Enterprise Mobility Management</Button>
-                <Button style={{ textAlign:'left',marginBottom:'10px',fontWeight:'600',fontSize:'18px',height: '50px' ,backgroundColor:'white',border:'none',fontWeight:'600',fontSize:'18px',color:'black'}} >Mobile Device Management (MDM)</Button>
-                <Button style={{textAlign:'left',marginBottom:'10px',fontWeight:'600',fontSize:'18px', height: '50px' ,backgroundColor:'white',border:'none',fontWeight:'600',fontSize:'18px',color:'black'}} >Email Security</Button>
-                <Button style={{textAlign:'left',marginBottom:'10px',fontWeight:'600',fontSize:'18px', height: '50px' ,backgroundColor:'white',border:'none',fontWeight:'600',fontSize:'18px',color:'black'}}>Web Security</Button>
+                <Button style={{ textAlign:'left',marginBottom:'10px',fontWeight:'600',fontSize:'18px',height: '50px' ,backgroundColor:'white',border:'none',color:'black'}} >Mobile Device Management (MDM)</Button>
+                <Button style={{textAlign:'left',marginBottom:'10px',fontWeight:'600',fontSize:'18px', height: '50px' ,backgroundColor:'white',border:'none',color:'black'}} >Email Security</Button>
+                <Button style={{textAlign:'left',marginBottom:'10px',fontWeight:'600',fontSize:'18px', height: '50px' ,backgroundColor:'white',border:'none',color:'black'}}>Web Security</Button>
             </Col>
             <Col   >
                 {/* <div className="row2_col2"> */}
                 <Row>
                     <Col>
-                    <img height={195}   src={hexnode} />
+                    <img height={195} alt='hexnode'  src={hexnode} />
                     </Col>
                     <Col>
-                    <img height={190}  src={scalefusion}/>
+                    <img height={190} alt='scalefusion' src={scalefusion}/>
                     </Col>
                  </Row>
                 {/* </div> */}

@@ -5,7 +5,7 @@ import logo from '../assets/logo.svg'
 import shopping_bag from '../assets/shopping_bag.svg'
 import '../sass/nav.scss'
 
-function Navbar_comp() {
+function NavbarComp() {
   return (
     <Navbar width="100vw" fluid bg="white" expand="md" style={{textAlign:'center',padding:'0 0 0 0',marginTop:'0px',boxShadow:'0 10px 10px -10px rgb(0 0 0/35%)'}}>
       <Container fluid>
@@ -33,7 +33,7 @@ function Navbar_comp() {
             <Nav.Link style={{color:'black'}} className='headtext'>Write a Review</Nav.Link>
             <Nav.Link className='headtext' style={{color:'black'}}>Sellers</Nav.Link>
             <Nav.Link className='headtext' style={{color:'black'}}>Blog</Nav.Link>
-            <Nav.Link className='headtext' style={{color:'black'}}><img width={35} height={35} src={ shopping_bag} /></Nav.Link>
+            <Nav.Link className='headtext' style={{color:'black'}}><img width={35} height={35} alt='shopping bag' src={ shopping_bag} /></Nav.Link>
             <Nav.Link className='headtext'>
               <button className='loginbtn'>Login</button>
             </Nav.Link>
@@ -46,4 +46,4 @@ function Navbar_comp() {
   );
 }
 
-export default Navbar_comp;
+export default NavbarComp;

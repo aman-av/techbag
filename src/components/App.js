@@ -1,20 +1,20 @@
 import React from "react";
-import Navbar_comp from "./Navbar_comp";
+import NavbarComp from "./NavbarComp";
 import { Container } from "react-bootstrap";
 import First from "./First";
 import Third from './Third';
 import Fourth from "./Fourth";
 import Fifth from "./Fifth";
-import Footer_ from "./Footer_";
+import Footer from "./Footer";
 
 function App() {
   return <Container fluid width="100vw" style={{ margin: '0 0 0 0', padding: '0 0 0 0' }}>  
-    <Navbar_comp />
+    <NavbarComp />
     <First />
     <Third />
     <Fourth />
     <Fifth />
-    <Footer_/>
+    <Footer/>
   </Container>;
 }
 

@@ -23,7 +23,7 @@ function Fifth() {
                     </div>
                 </div>
             </div>
-            <img src={ img} class="fif_img"/>
+            <img src={ img} alt='fift_logo' class="fif_img"/>
         </div>
   </div>;
 }

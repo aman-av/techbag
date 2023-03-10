@@ -3,13 +3,13 @@ import '../sass/footer_.scss'
 import { Row, Col } from 'react-bootstrap';
 import logo from '../assets/logo.svg';
 import scorecard from '../assets/scorecard.png'
-function Footer_() {
+function Footer() {
     return <div className="footer">
         
       <Row>
-            <Col lg={3} style={{textAlign:'center',alignSelf:'center',}}><img width='256px' height='100px' src={scorecard}  /></Col>      
+            <Col lg={3} style={{textAlign:'center',alignSelf:'center',}}><img width='256px' alt="scorecard" height='100px' src={scorecard}  /></Col>      
             <Col style={{display:'flex',justifyContent:'space-around',paddingTop:'40px'}}>
-                <img max-width='150px' height='48px' src={logo} />
+                <img max-width='150px' height='48px' alt="logo" src={logo} />
                 <div style={{alignSelf:'center',fontSize:'20px',fontWeight:'bold'}}>Ready to get Started?</div>
                 <div className="getstarted">Get Started</div>
             </Col>      
@@ -32,4 +32,4 @@ function Footer_() {
   </div>;
 }
 
-export default Footer_;
+export default Footer;

@@ -14,12 +14,12 @@ function Fourth() {
         <div className="custombtn">GIVE A REVIEW</div>
       </Col>
       <Col style={{textAlign:'center',alignSelf:'center'}} className="d-none d-lg-block">
-          <img height='auto' width='85%' src={review1} />
+          <img height='auto' alt="review1" width='85%' src={review1} />
       </Col>
     </Row>
     <Row style={{ margin:'7% 9%'}}>
       <Col style={{textAlign:'center',alignSelf:'center'}} className="d-none d-lg-block">
-          <img src={review2 } height="auto" width='85%'/>
+          <img src={review2 } alt='review2' height="auto" width='85%'/>
       </Col>
       <Col lg={5}>
         <div className="fourth_header">
