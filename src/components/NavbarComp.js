@@ -71,20 +71,22 @@ function NavbarComp() {
            
             {/* <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand> */}
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-false`} />
-            <Navbar.Offcanvas
+        <Navbar.Offcanvas
+          className='sidebar'
+          style={{backgroundColor:'#1d1751',color:'white',fontSize:'22px'}}
               id={`offcanvasNavbar-expand-false`}
               aria-labelledby={`offcanvasNavbarLabel-expand-false`}
               placement='start'
             >
-              <Offcanvas.Header closeButton>
+              <Offcanvas.Header closeVariant='white' closeButton>
               </Offcanvas.Header>
-              <Offcanvas.Body>
+              <Offcanvas.Body >
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action1">Home</Nav.Link>
+                  <Nav.Link href="#action1">Browse Product</Nav.Link>
+                  <Nav.Link href="#action1">Write a Review</Nav.Link>
+                  <Nav.Link href="#action1">Blog</Nav.Link>
+                  <Nav.Link href="#action1">Login</Nav.Link>
                   
               </Nav>
               </Offcanvas.Body>
