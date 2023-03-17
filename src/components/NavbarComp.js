@@ -49,12 +49,12 @@ function NavbarComp() {
               >
             
 
-                <Nav.Link className='headtext' href="#action1" style={{ color: 'black' }}>Browse Products
+                <Nav.Link className='headtext' href="#action1" style={{fontWeight:'600', color: 'black' }}>Browse Products
                 </Nav.Link>
-                <Nav.Link href="#action1" style={{ color: 'black' }} className='headtext'>Write a Review</Nav.Link>
-                <Nav.Link href="#action1" className='headtext' style={{ color: 'black' }}>Sellers</Nav.Link>
-                <Nav.Link href="#action1" className='headtext' style={{ color: 'black' }}>Blog</Nav.Link>
-                <Nav.Link href="#action1" className='headtext' style={{ color: 'black' }}><img width={35} height={35} alt='shopping bag' src={shopping_bag} /></Nav.Link>
+                <Nav.Link href="#action1" style={{ fontWeight:'600',color: 'black' }} className='headtext'>Write a Review</Nav.Link>
+                <Nav.Link href="#action1"  style={{fontWeight:'600', color: 'black' }}>Sellers</Nav.Link>
+                <Nav.Link href="#action1"  style={{fontWeight:'600', color: 'black' }}>Blog</Nav.Link>
+                <Nav.Link href="#action1"  style={{fontWeight:'600', color: 'black' }}><img width={35} height={35} alt='shopping bag' src={shopping_bag} /></Nav.Link>
                 <Nav.Link href="#action1" className='headtext'>
                   <button className='loginbtn'>Login</button>
                 </Nav.Link>

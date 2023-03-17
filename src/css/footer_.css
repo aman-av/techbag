@@ -58,6 +58,7 @@
 }
 .features{
    margin: 4% 0 4% 0;
+   text-align: center;
 }
   @media screen and ( min-width:576px) and ( max-width: 992px){
       .getstarted{
