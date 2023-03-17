@@ -3,7 +3,7 @@ import { Col,Button, Row } from 'react-bootstrap';
 import hero from '../assets/hero.jpg';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
-import '../sass/first.scss'
+import '../css/first.css'
 import search from '../assets/search.svg'
 import scalefusion from '../assets/scalefusion.png'
 import hexnode from '../assets/hexnode.png'

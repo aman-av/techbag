@@ -1,7 +1,6 @@
- @import "~bootstrap/scss/bootstrap";  
 
 .thirdrow1{
-    // display: flex;
+    /* // display: flex; */
     background-color: #1d1751;
     padding-left: 10vw;
     padding-top: 90px;
@@ -11,8 +10,8 @@
     margin-right: 0;
  }
  .third_d1{
-    // font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    // font-style: normal;
+    /* // font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    /* font-style: normal; */
     letter-spacing: 1.1px;
     font-weight: 700;
     font-size: 42px;

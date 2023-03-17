@@ -2,7 +2,7 @@ import React from "react";
 import review1 from '../assets/review1.svg'
 import review2 from '../assets/review2.svg'
 import { Row, Col } from 'react-bootstrap'
-import '../sass/fourth.scss'
+import '../css/fourth.css'
 function Fourth() {
   return <div>
     <Row style={{ margin:'7% 9%'}}>

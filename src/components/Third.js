@@ -1,5 +1,5 @@
 import React from "react";
-import '../sass/third.scss';
+import '../css/third.css';
 import { Row, Col} from 'react-bootstrap';
 import features1 from '../assets/features1.svg'
 import features2 from '../assets/features2.svg'

@@ -3,7 +3,7 @@ import {Nav,Offcanvas} from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/logo.svg'
 import shopping_bag from '../assets/shopping_bag.svg'
-import '../sass/nav.scss';
+import '../css/nav.css';
 import React,{useEffect,useState} from 'react';
 
 function NavbarComp() {

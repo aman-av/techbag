@@ -1,5 +1,5 @@
 import React from "react";
-import '../sass/fifth.scss';
+import '../css/fifth.css';
 import img from '../assets/subscribe-img.png'
 function Fifth() {
     return <div className="fifth">

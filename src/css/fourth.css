@@ -1,10 +1,9 @@
- @import "~bootstrap/scss/bootstrap";  
 
  .fourth_header{
     font-weight: 700;
     font-size: 36px;
     line-height: 50px;
-    // display: flex;
+     /* display: flex; */
     align-items: center;
     color: #061027;
     padding-top: 20px;
